@@ -1,0 +1,10 @@
+variable "aws_region" {
+  description = "AWS deployment region"
+  type = string
+  default = "ap-southeast-1"
+}
+
+variable "state_bucket_name" {
+  description = "S3 bucket name for storing Terraform state"
+  type = string
+}
